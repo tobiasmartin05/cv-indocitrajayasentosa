@@ -1,0 +1,348 @@
+[
+  {
+    "id": 1,
+    "proImg": "/product/indust-1.png",
+    "title": "Proximity Sensor",
+    "slug": "Proximity-Sensor"
+  },
+  {
+    "id": 2,
+    "proImg": "/product/indust-2.png",
+    "title": "Photoelectric Sensor",
+    "slug": "Photoelectric-Sensor"
+  },
+  {
+    "id": 3,
+    "proImg": "/product/indust-3.png",
+    "title": "Pressure Sensor",
+    "slug": "Pressure-Sensor"
+  },
+  {
+    "id": 4,
+    "proImg": "/product/indust-4.png",
+    "title": "Level Sensor",
+    "slug": "Level-Sensor"
+  },
+  {
+    "id": 5,
+    "proImg": "/product/indust-5.png",
+    "title": "Flow Sensor",
+    "slug": "Flow-Sensor"
+  },
+  {
+    "id": 6,
+    "proImg": "/product/indust-6.png",
+    "title": "Vision Sensor",
+    "slug": "Vision-Sensor"
+  },
+  {
+    "id" : 7,
+    "proImg" : "/product/indust-7.png",
+    "title" : "Fiber Optic Sensor",
+    "slug" : "Fiber-Optic-Sensor"
+  },
+  {
+    "id" : 8,
+    "proImg" : "/product/indust-8.png",
+    "title" : "Humidity Sensor",
+    "slug" : "Humidity-Sensor"
+  },
+  {
+    "id" : 9,
+    "proImg" : "/product/indust-9.png",
+    "title" : "Vibration Sensor",
+    "slug" : "Vibration-Sensor"
+  },
+  {
+    "id" : 10,
+    "proImg" : "/product/plc-1.png",
+    "title" : "PLC Omron",
+    "slug" : "Plc-Omron"
+  },
+  {
+    "id" : 11,
+    "proImg" : "/product/plc-2.png",
+    "title" : "PLC Mitsubishi Electric",
+    "slug" : "Plc-Mitsubishi-Electric"
+  },
+  {
+    "id" : 12,
+    "proImg" : "/product/plc-3.png",
+    "title" : "PLC Schneider Electric",
+    "slug" : "Plc-Schneider-Electric"
+  },
+  {
+    "id" : 13,
+    "proImg" : "/product/plc-4.png",
+    "title" : "PLC Panasonic",
+    "slug" : "Plc-Panasonic"
+  },
+  {
+    "id" : 14,
+    "proImg" : "/product/plc-5.png",
+    "title" : "PLC Haiwell",
+    "slug" : "Plc-Haiwell"
+  },
+  {
+    "id" : 15,
+    "proImg" : "/product/plc-6.png",
+    "title" : "PLC Delta",
+    "slug" : "Plc-Delta"
+  },
+  {
+    "id" : 16,
+    "proImg" : "/product/plc-7.png",
+    "title" :  "PLC LS Electric",
+    "slug" : "Plc-LS-Electric"
+  },
+  {
+    "id" : 17,
+    "proImg" : "/product/plc-8.png",
+    "title" : "PLC Beckhoff",
+    "slug" : "Plc-Beckhoff"
+  },
+  {
+    "id" : 18,
+    "proImg" : "/product/plc-9.png",
+    "title" : "PLC Siemens",
+    "slug" : "Plc-Siemens"
+  },
+  {
+    "id" : 19,
+    "proImg" : "/product/motor-1.png",
+    "title" : "Motor Induksi AC",
+    "slug" : "Motor-Induksi-AC"
+  },
+  {
+    "id" : 20,
+    "proImg" : "/product/motor-2.png",
+    "title" : "Motor Servo",
+    "slug" : "Motor-Servo"
+  },
+  {
+    "id" : 21,
+    "proImg" : "/product/motor-3.png",
+    "title" : "Motor Stepper",
+    "slug" : "Motor-Stepper"
+  },
+  {
+    "id" : 22,
+    "proImg" : "/product/motor-4.png",
+    "title" : "Motor Sinkron",
+    "slug" : "Motor-Sinkron"
+  },
+  {
+    "id" : 23,
+    "proImg" : "/product/motor-5.png",
+    "title" : "Motor DC Brushless",
+    "slug" : "Motor-DC-Brushless"
+  },
+  {
+    "id" : 24,
+    "proImg" : "/product/motor-6.png",
+    "title" : "Motor DC Brushed", 
+    "slug" : "Motor-DC-Brushed"
+  },
+  {
+    "id" : 25,
+    "proImg" : "/product/motor-7.png",
+    "title" : "Inverter VFD",
+    "slug" : "Inverter-VFD"
+  },
+  {
+    "id" : 26,
+    "proImg" : "/product/motor-8.png",
+    "title" : "Servo Driver",
+    "slug" : "Servo-Drive"
+  },
+  {
+    "id" : 27,
+    "proImg" : "/product/motor-9.png",
+    "title" : "Stepper Motor Driver",
+    "slug" : "Stepper-Motor-Driver"
+  },
+  {
+    "id" : 28,
+    "proImg" : "/product/listrik-1.png",
+    "title" : "MCB",
+    "slug" : "MCB"
+  },
+  {
+    "id" : 29,
+    "proImg" : "/product/listrik-2.png",
+    "title" : "MCCB",
+    "slug" : "MCCB"
+  },
+  {
+    "id" : 30,
+    "proImg" : "/product/listrik-3.png",
+    "title" : "ELCB/RCCB",
+    "slug" : "ELCB-RCCB"
+  },
+  {
+    "id" : 31,
+    "proImg" : "/product/listrik-4.png",
+    "title" : "Fuse/Sekring",
+    "slug" : "Fuse-Sekring"
+  },
+  {
+    "id" : 32,
+    "proImg" : "/product/listrik-5.png",
+    "title" : "Surge Arester /SPD",
+    "slug" : "Surge-Arester-SPD"
+  },
+  {
+    "id" : 33,
+    "proImg" : "/product/listrik-6.png",
+    "title" : "Contractor",
+    "slug" : "Contractor"
+  },
+  {
+    "id" : 34,
+    "proImg" : "/product/listrik-7.png",
+    "title" : "Thermal Overload Relay",
+    "slug" : "Therma-Overload-Relay"
+  },
+  {
+    "id" : 35,
+    "proImg" : "/product/listrik-8.png",
+    "title" : "Overload Relay (OLR)",
+    "slug" : "Overload-Relay-OLR"
+  },
+  {
+    "id" : 36,
+    "proImg" : "/product/listrik-9.png",
+    "title" : "Stop Kontak",
+    "slug" : "Stop-Kontak"
+  },
+  {
+    "id" : 37,
+    "proImg" : "/product/listrik-10.png",
+    "title" : "Kabel",
+    "slug" : "Kabel"
+  },
+  {
+    "id" : 38,
+    "proImg" : "/product/listrik-11.png",
+    "title" : "Pilot Lamp",
+    "slug" : "Pilot-Lamp"
+  },
+  {
+    "id" : 39,
+    "proImg" : "/product/listrik-12.png",
+    "title" : "Push Botton",
+    "slug" : "Push-Botton"
+  },
+  {
+    "id" : 40,
+    "proImg" : "/product/pneu1.png",
+    "title" : "Air Compresson",
+    "sug" : "Air-Compressor"
+  },
+  {
+    "id" : 41,
+    "proImg" : "/product/pneu2.png",
+    "title" : "Filter Regulator",
+    "sug" : "Filter-Regulator"
+  },
+  {
+    "id" : 42,
+    "proImg" : "/product/pneu3.png",
+    "title" : "Pneumatic Cylinder",
+    "slug" : "Pneumatic-Cylinder"
+  },
+  {
+    "id" : 43,
+    "proImg" : "/product/pneu4.png",
+    "title" : "Selenoid Valve",
+    "slug" : "Selenoid Valve"
+  },
+  {
+    "id" : 44,
+    "proImg" : "/product/pneu5.png",
+    "title" : "Manual Valve",
+    "slug" : "Manual-Valve"
+  },
+  {
+    "id" : 45,
+    "proImg" : "/product/pneu6.png",
+    "title" : "Air Horse",
+    "slug" : "Air-Horse"
+  },
+  {
+    "id" : 46,
+    "proImg" : "/product/pneu7.png",
+    "title" : "Fitting Pneumatic",
+    "slug" : "Fitting-Pneumatic"
+  },
+  {
+    "id" : 47,
+    "proImg" : "/product/pneu8.png",
+    "title" : "Pressure Gauge",
+    "slug" : "Pressure Gauge"
+  },
+  {
+    "id" : 48,
+    "proImg" : "/product/pneu9.png",
+    "title" : "Silencer / Muffler",
+    "slug" : "Silencer-Muffler"
+  },
+  {
+    "id" : 48,
+    "proImg" : "/product/it-1.png",
+    "title" : "Router",
+    "slug" : "Router"
+  },
+  {
+    "id" : 49,
+    "proImg" : "/product/it-2.png",
+    "title" : "Monitor",
+    "slug" : "Monitor"
+  },
+  {
+    "id" : 50,
+    "proImg" : "/product/it-3.png",
+    "title" : "CPU",
+    "slug" : "CPU"
+  },
+  {
+    "id" : 51,
+    "proImg" : "/product/it-4.png",
+    "title" : "Printer",
+    "slug" : "Printer"
+  },
+  {
+    "id" : 52,
+    "proImg" : "/product/it-5.png",
+    "title" : "Mouse",
+    "slug" : "Mouse"
+  },
+  {
+    "id" : 53,
+    "proImg" : "/product/indust-6.png",
+    "title" : "Keyboard",
+    "slug" : "Keyboard"
+  },
+  {
+    "id" : 54,
+    "proImg" : "/product/it-7.png",
+    "title" : "CCTV",
+    "slug" : "CCTV"
+  },
+  {
+    "id" : 55,
+    "proImg" : "/product/it-8.png",
+    "title" : "Laptop",
+    "slug" : "Laptop"
+  },
+  {
+    "id" : 56,
+    "proImg" : "/product/it-9.png",
+    "title" : "Projector",
+    "slug" : "Projector"
+  }
+
+
+
+
+]
