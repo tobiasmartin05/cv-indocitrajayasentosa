@@ -1,3 +1,32 @@
+/* ========== MobileMenu dasar ========== */
+/* link aktif */
+.responsivemenu a.active {
+  color: #ff7a00;           /* warna highlight */
+}
+
+/* item parent aktif (mis. Products saat salah satu submenu terbuka/aktif) */
+.responsivemenu li.active > p {
+  color: #ff7a00;
+}
+
+/* opsional: indikator bar kiri ketika aktif */
+.responsivemenu li.active > a,
+.responsivemenu li.active > p {
+  position: relative;
+}
+.responsivemenu li.active > a::before,
+.responsivemenu li.active > p::before {
+  content: '';
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 22px;
+  background: #ff7a00;
+  border-radius: 2px;
+}
+
 .mobileMenu {
     position: fixed;
     left: -300px;
@@ -11,29 +40,26 @@
     overflow-x: auto;
     overflow-y: scroll;
 }
-.responsivemenu .card-body{
-    background: #1A1729;
-}
-.mobileMenu h2{
-    padding-left: 20px;
-}
-.mobileMenu.show{
-    left: 0;
-}
+.responsivemenu .card-body { background: #1A1729; }
+.mobileMenu h2 { padding-left: 20px; }
+.mobileMenu.show { left: 0; }
+
 .showmenu {
     position: relative;
     top: 0;
     z-index: 999;
     cursor: pointer;
 }
+
 .responsivemenu {
     list-style: none;
     padding-left: 0;
     padding-top: 10px;
 }
+
 .responsivemenu li a,
 .responsivemenu li p,
-.responsivemenu ul{
+.responsivemenu ul {
     display: block;
     padding: 13px 35px;
     font-size: 16px;
@@ -43,64 +69,56 @@
     color: #fff;
     cursor: pointer;
 }
-.responsivemenu li p{
+
+.responsivemenu li p {
     position: relative;
     margin-bottom: 0;
 }
-.responsivemenu ul.subMenu{
+
+.responsivemenu ul.subMenu {
     padding-top: 0;
     padding-left: 15px;
     padding-right: 0;
 }
-.responsivemenu ul.subMenu ul{
+
+.responsivemenu ul.subMenu ul {
     position: relative;
     margin-bottom: 0;
     padding-left: 0;
 }
-.responsivemenu ul{
-    list-style: none;
-}
+
+.responsivemenu ul { list-style: none; }
+
 .responsivemenu ul p,
-.responsivemenu ul a{
+.responsivemenu ul a {
     color: #fff;
     position: relative;
     font-size: 16px;
 }
 
-.responsivemenu ul p i{
+.responsivemenu ul p i {
     position: absolute;
     right: 0;
     top: 5px;
 }
 
-.responsivemenu .card{
-  border:none
-}
-.responsivemenu .card-body{
-  padding-top: 0;
-}
+.responsivemenu .card { border: none; }
+.responsivemenu .card-body { padding-top: 0; }
 
-
-.responsivemenu li a{
-    position: relative;
-}
-.responsivemenu li i{
+.responsivemenu li a { position: relative; }
+.responsivemenu li i {
     position: absolute;
     right: 20px;
     top: 17px;
 }
-.showmenu i {
-    font-size: 30px;
-    color: #fff;
-}
 
-.mobileMenu{
-    display: none;
-}
-.showmenu{
-    display: none;
-}
-@media (max-width:992px){
+.showmenu i { font-size: 30px; color: #fff; }
+
+.mobileMenu { display: none; }
+.showmenu { display: none; }
+
+/* ========== Tampil di layar kecil ========== */
+@media (max-width: 992px) {
     .showmenu {
         display: block;
         width: 40px;
@@ -110,50 +128,94 @@
         border-radius: 5px;
     }
 
-    .showmenu button:focus{
+    .showmenu button:focus {
         outline: none;
         box-shadow: none;
     }
-    .showmenu button span{
+
+    .showmenu button span {
         background-color: #fff;
         width: 20px;
         display: block;
         height: 2px;
-        margin: 0 auto;
-        margin-bottom: 5px;
+        margin: 0 auto 5px;
     }
-    .mobileMenu{
+
+    .mobileMenu { display: block; }
+
+    /* ====== FIX SUBMENU MOBILE (KUNCI) ======
+       MUI ListItem default: display:flex row → submenu muncul di samping.
+       Ubah jadi kolom agar submenu turun ke bawah judul. */
+    .mobileMenu .MuiListItem-root {
+        display: flex;
+        flex-direction: column;   /* anak-anak di-stack vertikal */
+        align-items: stretch;
+        width: 100%;
+        padding: 0;               /* biar rapi, p & submenu sudah punya padding */
+    }
+
+    /* Judul yang bisa di-tap (mis. "Products") */
+    .mobileMenu .responsivemenu > li > p,
+    .mobileMenu .MuiListItem-root > p {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+        padding: 13px 35px;
+        cursor: pointer;
+    }
+
+    /* Submenu di mobile: jangan absolute/dropdown gaya desktop */
+    .mobileMenu .subMenu {
+        position: static !important;
+        left: auto !important;
+        top: auto !important;
+        transform: none !important;
+        width: 100% !important;
+        margin: 6px 0 0;
+        padding-left: 20px;       /* indent sedikit */
+        background: transparent;
+        box-shadow: none;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .mobileMenu .subMenu .MuiListItem-root,
+    .mobileMenu .subMenu li {
         display: block;
+        width: 100%;
     }
+
+    .mobileMenu .subMenu a {
+        display: block;
+        /* padding: 10px 0; */
+    }
+
+    /* Panel bisa di-scroll saat daftar panjang */
+    .mobileMenu { max-height: 100vh; overflow-y: auto; }
 }
 
-
-
-.middle-header-3 .showmenu {
-    top: 36px;
-}
-.middle-header2 .showmenu {
-    top: 26px;
-}
-
-.middle-header-3 .showmenu i{
-    color: #fff;
-}
-
-
-@media(max-width:450px){
+/* ========== Penyesuaian ukuran sangat kecil ========== */
+@media (max-width: 450px) {
     .mobileMenu {
         left: -260px;
         width: 260px;
     }
-    .responsivemenu li a, .responsivemenu li p {
+    .responsivemenu li a,
+    .responsivemenu li p {
         font-size: 14px;
         padding: 13px 25px;
     }
 }
 
+/* Posisi tombol buka menu untuk beberapa header */
+.middle-header-3 .showmenu { top: 36px; }
+.middle-header2 .showmenu  { top: 26px; }
+.middle-header-3 .showmenu i { color: #fff; }
 
-.responsivemenu a:not([href]):not([class]), 
-.responsivemenu a:not([href]):not([class]):hover{
- color: #ddd;
+/* Link tanpa href */
+.responsivemenu a:not([href]):not([class]),
+.responsivemenu a:not([href]):not([class]):hover {
+    color: #ddd;
 }

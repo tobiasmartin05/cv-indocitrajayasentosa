@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route, } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import HomePage4 from '../HomePage4/HomePage4';
 import ServicePage from '../ServicePage/ServicePage';
 // import ServiceSinglePage from '../ServiceSinglePage/ServiceSinglePage';
@@ -30,10 +30,10 @@ import ContactPage from '../ContactPage/ContactPage';
 import ErrorPage from '../ErrorPage/ErrorPage';
 
 const AllRoute = () => {
-
+  const base = process.env.NODE_ENV === 'production' ? process.env.PUBLIC_URL : '/';
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename={base}>
         <Routes>
           <Route path="/" element={<HomePage4 />} />
           <Route path="home" element={<HomePage4 />} />
@@ -63,6 +63,7 @@ const AllRoute = () => {
           <Route path='contact' element={<ContactPage />} />
           <Route path='order_received' element={<OrderRecived />} />
           <Route path='404' element={<ErrorPage />} />
+          {/* <Route path='*' element={<Navigate to="/" replace />} /> */}
         </Routes>
       </BrowserRouter>
 

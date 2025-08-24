@@ -17,7 +17,7 @@ const ShopProduct = ({ products, addToCartProduct }) => {
                                 products.slice(9,18).map((product, pitem) => (
                                     <div className="grid" key={pitem}>
                                         <div className="img-holder">
-                                            <img src={product.proImg} alt="" />
+                                            <img src={`${process.env.PUBLIC_URL}${product.proImg}`} alt="" />
                                         </div>
                                         <div className="details">
                                             <h3><Link onClick={ClickHandler} to={`/product-single/${product.slug}`}>{product.title}</Link></h3>
