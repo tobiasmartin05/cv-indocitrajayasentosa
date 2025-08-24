@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cv-indocitrajayasentosa/static/css/main.3e761595.css",
-    "main.js": "/cv-indocitrajayasentosa/static/js/main.ed40e491.js",
+    "main.css": "/cv-indocitrajayasentosa/static/css/main.122c30bc.css",
+    "main.js": "/cv-indocitrajayasentosa/static/js/main.a312e5c4.js",
     "static/js/787.823c83fe.chunk.js": "/cv-indocitrajayasentosa/static/js/787.823c83fe.chunk.js",
     "static/media/service-bg.png": "/cv-indocitrajayasentosa/static/media/service-bg.d1927e3c3d3251776894.png",
     "static/media/footer.png": "/cv-indocitrajayasentosa/static/media/footer.ca55512ef2b54447408a.png",
@@ -63,12 +63,12 @@
     "static/media/slick.woff": "/cv-indocitrajayasentosa/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/cv-indocitrajayasentosa/index.html",
     "static/media/sappot-shape.svg": "/cv-indocitrajayasentosa/static/media/sappot-shape.de16c868c146a966fb9805f6739fe822.svg",
-    "main.3e761595.css.map": "/cv-indocitrajayasentosa/static/css/main.3e761595.css.map",
-    "main.ed40e491.js.map": "/cv-indocitrajayasentosa/static/js/main.ed40e491.js.map",
+    "main.122c30bc.css.map": "/cv-indocitrajayasentosa/static/css/main.122c30bc.css.map",
+    "main.a312e5c4.js.map": "/cv-indocitrajayasentosa/static/js/main.a312e5c4.js.map",
     "787.823c83fe.chunk.js.map": "/cv-indocitrajayasentosa/static/js/787.823c83fe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e761595.css",
-    "static/js/main.ed40e491.js"
+    "static/css/main.122c30bc.css",
+    "static/js/main.a312e5c4.js"
   ]
 }
