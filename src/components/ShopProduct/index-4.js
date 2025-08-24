@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 
 const ShopProduct = ({ products, addToCartProduct }) => {
@@ -20,7 +20,7 @@ const ShopProduct = ({ products, addToCartProduct }) => {
                                             <img src={`${process.env.PUBLIC_URL}${product.proImg}`} alt="" />
                                         </div>
                                         <div className="details">
-                                            <h3><Link onClick={ClickHandler} to={`/product-single/${product.slug}`}>{product.title}</Link></h3>
+                                            <h3>{product.title}</h3>
                                         </div>
                                     </div>
                                 ))}
