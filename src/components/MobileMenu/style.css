@@ -162,7 +162,7 @@
         align-items: center;
         margin: 0;
         width: 100%;
-        padding: 13px 35px;
+        /* padding: 13px 35px; */
         cursor: pointer;
     }
 
